@@ -1,8 +1,9 @@
 """
 Our Mutliscale Mutation Clustering Algorithm has been made available to the public for research and academic purposes.
 For more information please see our manuscript, __________________
-To view results from this algorithm on an interactive webpage, visit _________________
-If you wish to use this algorithm for commercial uses, please contact _________________
+To view results from this algorithm on an interactive webpage, visit m2c.cancerregulome.org
+If you wish to use this algorithm for commercial uses, please contact bbernard [at] systemsbiology [dot] org
+For more information regarding the code, please contact wpoole [at] caltech [dot] edu
 
 """
 
