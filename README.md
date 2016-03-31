@@ -19,6 +19,8 @@ If the required libraries are installed, all code will run by putting the files 
 
 File Descriptions
 -------------
+### M2CWorkflow.py
+This file provides an example script running the multiscale clustering algorithm on mutation data from the gene PTEN and plotting the results. This is a good place to start if you wish to use the algorithm in your work.
 ### M2CFunctions.py 
 This file contains custom functions and classes used by the clustering algorithm. Users are not expected to need to call these functions directly unless they wish to directly modify how the M2C algorithm works. 
 ### MultiscaleMutationClusteringScript.py 
@@ -36,5 +38,3 @@ This file contains the wrapper script which runs the multiscale clustering algor
 - final_clusters: a list L of sublists, C. Each sublist C represents a cluster and contains the raw data points assigned to that cluster. Noise cluster not returned 
 - final_params: a list L of tuples (w, m, s, n) representing gaussian clusters where w is the weight of a cluster, m is the mean, s is the standard deviation, and n is the uniform noise weight. 
 - densities: a list of numpy arrays, where each array is a KDE of one of the bandwidths passed into the M2C function. 
-### M2CWorkflow.py
-This file provides an example script running the multiscale clustering algorithm on mutation data from the gene PTEN and plotting the results. This is a good place to start if you wish to use the algorithm in your work.
