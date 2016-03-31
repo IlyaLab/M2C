@@ -1,4 +1,4 @@
-# CombiningDependentPvaluesUsingEBM
+# Multiscale Mutation Clustering Algorithm (M2C)
 
 ```bash
 Contact: William Poole (wpoole [at] Caltech [dot] edu) - code-related issues/requests
